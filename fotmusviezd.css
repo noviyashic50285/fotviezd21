@@ -1,0 +1,70 @@
+*{margin: 0; padding: 0;
+overflow: hidden;
+}
+#particles-js{ height:100vh; 
+position: absolute; z-index: -10;
+}
+.obekt
+{ display: block;
+margin: .8rem;
+padding: .4rem;
+width: 700px;
+font-size: 1.2rem;
+align-items: center;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+margin-right: 2rem;
+}
+.obektmus
+{ display: block;
+margin: .8rem;
+width: 320px;
+font-size: 1.2rem;
+align-items: center;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+margin-right: 2rem;
+}
+.kartin{display: flex;
+flex-direction: row;
+justify-content: center; 
+}
+.vspliv12{margin: .1rem 3.5rem 1rem 2.5rem;
+padding: .5rem;
+font-size: 20px; 
+background-color: #c7edc7;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+}
+.vspliv13{margin: .1rem 3.5rem 1rem 2.5rem;
+padding: .5rem;
+font-size: 20px; 
+background-color: #8cc2e3;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+}
+.pstob1{ font-size: 20px; color: #08046d;
+margin: .1rem 2rem 1rem 2rem;
+}
+.pstob2{ font-size: 20px; color: #022a19;
+margin: .1rem 2rem 1rem 2rem;
+}
+
+a{text-decoration: none;}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+img:hover {  /* Добавить эффект наведения (синяя тень) */
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}

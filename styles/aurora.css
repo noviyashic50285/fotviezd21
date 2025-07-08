@@ -1,0 +1,28 @@
+.bubble { z-index: -2;
+width: 500px;
+height: 500px;
+position: absolute;
+border-radius: 500px;
+-webkit-filter: blur(200px);
+-webkit-animation: pulse 2s alternate infinite;
+}
+.bubble-blue {
+  background: blue; 
+}
+.bubble-yellow {
+  background: yellow; 
+}
+.bubble-red {
+  background: red;
+}
+.bubble-green {
+  background: green;
+}
+.bubble-purple {
+  background: purple;
+}
+@-webkit-keyframes pulse
+{
+from {-webkit-filter:  blur(200px) opacity(0%);}
+to {-webkit-filter:  blur(250px) opacity(100%);}
+}
