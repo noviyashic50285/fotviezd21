@@ -2,12 +2,12 @@
   background-color: lightgreen;
   /* Smoothly transition the background color */
   transition: background-color .5s;
-  height: 35vh;
+  height: 37vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-margin: 1rem;
+margin: 14px;
 border: 3px solid rgb(35, 101, 22);
 border-radius: 1rem;
 }

@@ -6,9 +6,33 @@ position: absolute; z-index: -10;
 }
 .obekt
 { display: block;
-margin: .8rem;
-padding: .4rem;
+margin: 16px;
+padding: 15px;
+width: 695px;
+font-size: 1.2rem;
+align-items: center;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+margin-right: 2rem;
+}
+.obektk
+{ display: block;
+margin-top: 14px;
+padding: 5px;
 width: 700px;
+height: 288px;
+font-size: 1.2rem;
+align-items: center;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+margin-right: 2rem;
+}
+.obektb
+{ display: block;
+margin-top: 16px;
+padding: 5px;
+width: 700px;
+height: 415px;
 font-size: 1.2rem;
 align-items: center;
 border: 3px solid rgb(35, 101, 22);
@@ -17,8 +41,9 @@ margin-right: 2rem;
 }
 .obektmus
 { display: block;
-margin: .8rem;
-width: 320px;
+margin-top: 14px;
+width: 340px;
+height: 288px;
 font-size: 1.2rem;
 align-items: center;
 border: 3px solid rgb(35, 101, 22);
