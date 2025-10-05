@@ -20,27 +20,39 @@ let curr_track = document.createElement('audio');
 
 let track_list = [
   {
-    name: "Стройотряд",
+    name: "Программа передач",
     artist: "",
     image: "music/pic01.jpg",
+    path: "music/progrperedach.mp3"
+  },
+  {
+    name: "Чёрно-белый мир",
+    artist: "",
+    image: "music/pic02.jpg",
+    path: "music/tratnervi.mp3"
+  },
+  {
+    name: "Стройотряд",
+    artist: "",
+    image: "music/pic03.jpg",
     path: "music/stroyotrad.mp3"
   },
   {
     name: "Ветер в голове",
     artist: "",
-    image: "music/pic02.jpg",
+    image: "music/pic04.jpg",
     path: "music/vetervgolove.mp3"
   },
   {
     name: "Ксюша",
     artist: "",
-    image: "music/pic03.jpg",
+    image: "music/pic05.jpg",
     path: "music/apinaksusha.mp3",
   },
   {
     name: "Тук",
     artist: "",
-    image: "music/pic03.jpg",
+    image: "music/pic06.jpg",
     path: "music/5statuk.mp3",
   },
 ];
