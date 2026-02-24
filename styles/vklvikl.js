@@ -16,10 +16,15 @@ makefon.addEventListener('click', function() {
 
 const otfon = document.getElementById("otklfon");
 const otklfon = document.getElementById("player");
+const otklimg = document.getElementsByTagName("img");
 otfon.addEventListener('click', function() {
     if (otklfon.style.backgroundColor == 'transparent') {
         otklfon.style.backgroundColor = 'greenyellow';
+        for (let i = 0; i < otklimg.length; i++) { otklimg[i].style.display = 'inline-block'; }
+        otfon.style.color = 'black';
     } else {
         otklfon.style.backgroundColor = 'transparent';
+        for (let i = 0; i < otklimg.length; i++) { otklimg[i].style.display = 'none'; }
+        otfon.style.color = 'white';
     }
 });
