@@ -1,3 +1,9 @@
+#otklfon{
+background-color: transparent;
+padding: 2px;
+border: 1px solid rgb(226, 132, 149);
+border-radius: 20px;    
+}    
 *{margin: 0; padding: 0;
 overflow: hidden;
 }

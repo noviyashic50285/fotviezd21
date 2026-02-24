@@ -13,3 +13,13 @@ makefon.addEventListener('click', function() {
         containerop2.style.backgroundColor = 'green';
     }
 });
+
+const otfon = document.getElementById("otklfon");
+const otklfon = document.getElementById("player");
+otfon.addEventListener('click', function() {
+    if (otklfon.style.backgroundColor == 'transparent') {
+        otklfon.style.backgroundColor = 'greenyellow';
+    } else {
+        otklfon.style.backgroundColor = 'transparent';
+    }
+});
